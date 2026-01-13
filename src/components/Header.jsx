@@ -62,12 +62,12 @@ const Header = () => {
             <ul className="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
               <li>
                 <Link className="nav-link" to="/user/profile">
-                  <img src="images/user.svg" alt="pic" />
+                  <img src="/images/user.svg" alt="pic" />
                 </Link>
               </li>
               <li>
                 <Link className="nav-link" to="/user/cart">
-                  <img src="images/cart.svg" alt="pic" />
+                  <img src="/images/cart.svg" alt="pic" />
                 </Link>
               </li>
             </ul>

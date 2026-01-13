@@ -1,132 +1,131 @@
 import React from "react";
-// import Product from '../components/Product'
+import {Link} from 'react-router-dom'
 
 const Shop = () => {
   return (
     <>
-      {/* <Product /> */}
 
       <div className="untree_co-section product-section before-footer-section">
         <div className="container">
           <div className="row">
             <div className="col-12 col-md-4 col-lg-3 mb-5">
-              <a className="product-item" href="#">
+              <Link className="product-item" to="/">
                 <img
                   src="images/product-3.png"
-                  className="img-fluid product-thumbnail"
+                  className="img-fluid product-thumbnail" alt='pic'
                 />
                 <h3 className="product-title">Nordic Chair</h3>
                 <strong className="product-price">$50.00</strong>
 
                 <span className="icon-cross">
-                  <img src="images/cross.svg" className="img-fluid" />
+                  <img src="images/cross.svg" className="img-fluid" alt='pic' />
                 </span>
-              </a>
+              </Link>
             </div>
 
             <div className="col-12 col-md-4 col-lg-3 mb-5">
-              <a className="product-item" href="#">
+              <Link className="product-item" to="/">
                 <img
                   src="images/product-1.png"
-                  className="img-fluid product-thumbnail"
+                  className="img-fluid product-thumbnail" alt='pic'
                 />
                 <h3 className="product-title">Nordic Chair</h3>
                 <strong className="product-price">$50.00</strong>
 
                 <span className="icon-cross">
-                  <img src="images/cross.svg" className="img-fluid" />
+                  <img src="images/cross.svg" className="img-fluid" alt='pic' />
                 </span>
-              </a>
+              </Link>
             </div>
 
             <div className="col-12 col-md-4 col-lg-3 mb-5">
-              <a className="product-item" href="#">
+              <Link className="product-item" to="/">
                 <img
                   src="images/product-2.png"
-                  className="img-fluid product-thumbnail"
+                  className="img-fluid product-thumbnail" alt='pic'
                 />
                 <h3 className="product-title">Kruzo Aero Chair</h3>
                 <strong className="product-price">$78.00</strong>
 
                 <span className="icon-cross">
-                  <img src="images/cross.svg" className="img-fluid" />
+                  <img src="images/cross.svg" className="img-fluid" alt='pic' />
                 </span>
-              </a>
+              </Link>
             </div>
 
             <div className="col-12 col-md-4 col-lg-3 mb-5">
-              <a className="product-item" href="#">
+              <Link className="product-item" to="/">
                 <img
                   src="images/product-3.png"
-                  className="img-fluid product-thumbnail"
+                  className="img-fluid product-thumbnail" alt='pic'
                 />
                 <h3 className="product-title">Ergonomic Chair</h3>
                 <strong className="product-price">$43.00</strong>
 
                 <span className="icon-cross">
-                  <img src="images/cross.svg" className="img-fluid" />
+                  <img src="images/cross.svg" className="img-fluid" alt='pic' />
                 </span>
-              </a>
+              </Link>
             </div>
 
             <div className="col-12 col-md-4 col-lg-3 mb-5">
-              <a className="product-item" href="#">
+              <Link className="product-item" to="/">
                 <img
                   src="images/product-3.png"
-                  className="img-fluid product-thumbnail"
+                  className="img-fluid product-thumbnail" alt='pic'
                 />
                 <h3 className="product-title">Nordic Chair</h3>
                 <strong className="product-price">$50.00</strong>
 
                 <span className="icon-cross">
-                  <img src="images/cross.svg" className="img-fluid" />
+                  <img src="images/cross.svg" className="img-fluid" alt='pic' />
                 </span>
-              </a>
+              </Link>
             </div>
 
             <div className="col-12 col-md-4 col-lg-3 mb-5">
-              <a className="product-item" href="#">
+              <Link className="product-item" to="/">
                 <img
                   src="images/product-1.png"
-                  className="img-fluid product-thumbnail"
+                  className="img-fluid product-thumbnail" alt='pic'
                 />
                 <h3 className="product-title">Nordic Chair</h3>
                 <strong className="product-price">$50.00</strong>
 
                 <span className="icon-cross">
-                  <img src="images/cross.svg" className="img-fluid" />
+                  <img src="images/cross.svg" className="img-fluid" alt='pic' />
                 </span>
-              </a>
+              </Link>
             </div>
 
             <div className="col-12 col-md-4 col-lg-3 mb-5">
-              <a className="product-item" href="#">
+              <Link className="product-item" to="/">
                 <img
                   src="images/product-2.png"
-                  className="img-fluid product-thumbnail"
+                  className="img-fluid product-thumbnail" alt='pic'
                 />
                 <h3 className="product-title">Kruzo Aero Chair</h3>
                 <strong className="product-price">$78.00</strong>
 
                 <span className="icon-cross">
-                  <img src="images/cross.svg" className="img-fluid" />
+                  <img src="images/cross.svg" className="img-fluid" alt='pic' />
                 </span>
-              </a>
+              </Link>
             </div>
 
             <div className="col-12 col-md-4 col-lg-3 mb-5">
-              <a className="product-item" href="#">
+              <Link className="product-item" to="/">
                 <img
                   src="images/product-3.png"
-                  className="img-fluid product-thumbnail"
+                  className="img-fluid product-thumbnail" alt='pic'
                 />
                 <h3 className="product-title">Ergonomic Chair</h3>
                 <strong className="product-price">$43.00</strong>
 
                 <span className="icon-cross">
-                  <img src="images/cross.svg" className="img-fluid" />
+                  <img src="images/cross.svg" className="img-fluid" alt='pic' />
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

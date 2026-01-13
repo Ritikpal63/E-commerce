@@ -10,7 +10,7 @@ import Blog from '../components/Blog'
 const HomePage = () => {
   return (
     <>
-    <Hero />
+    <Hero title={"Modern Interior Design Studio"} />
     <Product />
     <WhyChooseMe />
     <Help />

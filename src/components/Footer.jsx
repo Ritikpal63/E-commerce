@@ -8,7 +8,7 @@ const Footer = () => {
       <footer className="footer-section">
         <div className="container relative">
           <div className="sofa-img">
-            <img src="images/sofa.png" alt="pic" className="img-fluid" />
+            <img src="/images/sofa.png" alt="pic" className="img-fluid" />
           </div>
 
           <div className="row">
@@ -17,7 +17,7 @@ const Footer = () => {
                 <h3 className="d-flex align-items-center">
                   <span className="me-1">
                     <img
-                      src="images/envelope-outline.svg"
+                      src="/images/envelope-outline.svg"
                       alt="pic"
                       className="img-fluid"
                     />

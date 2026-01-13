@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom'
 
 
-const Hero = () => {
+const Hero = ({title}) => {
   return (
     <>
       <div className="hero">
@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="col-lg-5">
               <div className="intro-excerpt">
                 <h1>
-                  Modern Interior <span clsas="d-block">Design Studio</span>
+                   {title}
                 </h1>
                 <p className="mb-4">
                   Donec vitae odio quis nisl dapibus malesuada. Nullam ac
