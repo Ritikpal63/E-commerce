@@ -1040,6 +1040,12 @@ textarea {
 .my-bg{
   background-color:#3b5d50 ;
 }
+/* .team button:hover{
+  border: 2px solid #3b5d50;
+  background-color: white;
+  color: #3b5d50;
+  transition: 0.5s all ease-in-out ;
+} */
 .admin button{
   width: 200px;
   height: 35px;

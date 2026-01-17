@@ -10,7 +10,7 @@ const Hero = ({title}) => {
         <div className="container">
           <div className="row justify-content-between">
             {
-              user == "User"?
+              user === "User"?
               (<div className="row">
                 <div className="col-lg-5">
               <div className="intro-excerpt">
@@ -34,7 +34,7 @@ const Hero = ({title}) => {
             </div>
             <div className="col-lg-7">
               <div className="hero-img-wrap">
-                <img src="images/couch.png" className="img-fluid" alt="pic"/>
+                <img src="/images/couch.png" className="img-fluid" alt="pic"/>
               </div>
             </div>
             </div>

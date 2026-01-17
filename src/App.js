@@ -12,6 +12,7 @@ import Cart from "./components/Cart";
 import Checkout from "./components/Checkout";
 import UserProfile from "./Pages/UserProfile";
 import HomeAdmin from "./Pages/Admin/HomeAdmin";
+import AddTeam from "./Pages/Admin/AddTeam";
 import ErrorPage from "./Pages/ErrorPage";
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
         <Route path="/user/profile" element={<UserProfile />} />
         <Route path="/user/cart" element={<Cart />} />
         <Route path="/checkout" element={<Checkout />} />
-        <Route path="/admin" element={<HomeAdmin />} />
+        <Route path="/admin/*" element={<HomeAdmin />} />
         <Route path="/*" element={<ErrorPage />} />
       </Routes>
       <Footer />
