@@ -9,7 +9,7 @@ const AddProduct = () => {
       </h1>
       <form action="">
       <div className="row mb-3">
-        <input
+      <input
           type="text"
           className="form-control"
           name="productName"
@@ -23,6 +23,13 @@ const AddProduct = () => {
           name="productPrice"
           placeholder="Product Price"
         />
+      </div>
+      <div className="row mb-3">
+        <select name="Category" className='form-select'>
+          <option value="chair">Chair</option>
+          <option value="table">Table</option>
+          <option value="almirah">Almirah</option>
+        </select>
       </div>
       <div className="row mb-3">
         <input
