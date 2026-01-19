@@ -62,7 +62,8 @@ const AddProduct = () => {
         {error.price && <p className='text-danger mb-0'>{error.price}</p>}
       </div>
       <div className="row mb-3">
-        <select name="Category" className='form-select' onChange={(e)=>handleChange(e)}>
+        <select name="category" className='form-select' onChange={(e)=>handleChange(e)} value={productDetails.category}>
+          <option value="">Select Category</option>
           <option value="chair">Chair</option>
           <option value="table">Table</option>
           <option value="almirah">Almirah</option>
