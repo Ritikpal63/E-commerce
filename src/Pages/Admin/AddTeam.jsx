@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import { TeamContext } from "../../Context/TeamContext";
 
 const AddTeam = () => {
-  const { teamDetails, setTeamDetails } = useContext(TeamContext);
+  const { teamDetails, setTeamDetails, addTeamMember } = useContext(TeamContext);
   const [error, setError] = useState({});
 
   function handleChange(e) {
@@ -14,28 +14,40 @@ const AddTeam = () => {
   }
   function validate() {
     let newErrors = {};
+    let isValid = true;
     if (!teamDetails.name) {
       newErrors.name = "Team Name is required";
+      isValid = false;
     }
     if (!teamDetails.position) {
       newErrors.position = "Team Position is required";
+      isValid = false;
     }
     if (!teamDetails.about) {
       newErrors.about = "Team about is required";
+      isValid = false;
     }
     if (!teamDetails.teamPic) {
       newErrors.teamPic = "Team Image is required";
+      isValid = false;
     }
 
     setError(newErrors);
+    return isValid;
   }
 
   function handleSubmit(e) {
     e.preventDefault()
     if (validate()) {
-      localStorage.setItem("Team Details", JSON.stringify(teamDetails));
+      addTeamMember(teamDetails);
+      alert("Team member added successfully!");
+      setTeamDetails({
+        name:'',
+        teamPic:'',
+        position:'',
+        about:''
+      });
     }
-    console.log(teamDetails);
   }
   return (
     <>

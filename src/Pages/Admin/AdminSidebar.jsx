@@ -29,30 +29,24 @@ const AdminSidebar = () => {
           </span>
           <span className="float-end me-3 fw-semibold">Testimonial</span>
         </NavLink>
-        <NavLink to="/admin/testimonial" className="list-group-item">
-          <span>
-            <i className="fa-regular fa-comment-dots fs-5"></i>
-          </span>
-          <span className="float-end me-3 fw-semibold">Testimonial</span>
-        </NavLink>
-        <NavLink to="/admin/testimonial" className="list-group-item">
-          <span>
-            <i className="fa-regular fa-comment-dots fs-5"></i>
-          </span>
-          <span className="float-end me-3 fw-semibold">Testimonial</span>
-        </NavLink>
-        <NavLink to="/admin/testimonial" className="list-group-item">
-          <span>
-            <i className="fa-regular fa-comment-dots fs-5"></i>
-          </span>
-          <span className="float-end me-3 fw-semibold">Testimonial</span>
-        </NavLink>
-        <NavLink to="/admin/testimonial" className="list-group-item">
-          <span>
-            <i className="fa-regular fa-comment-dots fs-5"></i>
-          </span>
-          <span className="float-end me-3 fw-semibold">Testimonial</span>
-        </NavLink>
+        <NavLink to="/admin/orders" className="list-group-item">
+  <span>
+    <i className="fa-solid fa-cart-shopping fs-5"></i>
+  </span>
+  <span className="float-end me-3 fw-semibold">Orders</span>
+</NavLink>
+<NavLink to="/admin/users" className="list-group-item">
+  <span>
+    <i className="fa-solid fa-user-group fs-5"></i>
+  </span>
+  <span className="float-end me-3 fw-semibold">Customers</span>
+</NavLink>
+<NavLink to="/admin/messages" className="list-group-item">
+  <span>
+    <i className="fa-solid fa-envelope fs-5"></i>
+  </span>
+  <span className="float-end me-3 fw-semibold">Messages</span>
+</NavLink>
       </div>
     </>
   );

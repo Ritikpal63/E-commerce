@@ -9,8 +9,12 @@ export const TeamProvider = ({children}) =>{
     position:'',
     about:''
   })
+  const addTeamMember = (details) => {
+    setTeamDetails(details);
+    localStorage.setItem("Team Details", JSON.stringify(details));
+  };
   return (
-    <TeamContext.Provider value={{teamDetails, setTeamDetails}}>
+    <TeamContext.Provider value={{teamDetails, setTeamDetails, addTeamMember}}>
       {children}
     </TeamContext.Provider>
 )
