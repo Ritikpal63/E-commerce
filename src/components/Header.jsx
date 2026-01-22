@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  const [user, setUser] = useState("Admin");
+  const [user, setUser] = useState("User");
   return (
     <>
       <nav
